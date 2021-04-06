@@ -40,6 +40,9 @@ namespace DesignPatterns
             System.Console.WriteLine("\nStructural pattern: Proxy \n");
             new StructuralPatterns.Proxy.Client().Main();
 
+            System.Console.WriteLine("\nBehavioral pattern: Chain of Responsibility \n");
+            new BehavioralPatterns.ChainOfResponsibility.Client().Main();
+
         }
     }
 }
